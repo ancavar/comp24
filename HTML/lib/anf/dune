@@ -1,6 +1,6 @@
 (library
  (name Anf)
- (modules Cc cc_tests)
+ (modules Cc cc_tests Remove_pm Remove_pm_tests)
  (libraries base Common AstLib Parser)
  (preprocess
   (pps ppx_deriving.show ppx_deriving.eq ppx_expect))
